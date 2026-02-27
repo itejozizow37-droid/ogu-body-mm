@@ -1,0 +1,518 @@
+.style1 {
+ text-shadow: 1px 1px 8px rgb(178 209 0);
+ letter-spacing: .02em;
+ font-weight: 400;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: border-box, border-box, text;
+ background-image: url(../../../), url(../../../), linear-gradient(15deg, rgba(212, 175, 55, 1) 20%, rgba(58, 147, 74, 1) 30%, rgba(58, 147, 74, 1) 40%, rgba(212, 175, 55, 1) 50%, rgba(212, 175, 55, 1) 60%, rgba(58, 147, 74, 1) 70%, rgba(58, 147, 74, 1) 80%);
+ background-size: 11em, 11em, auto;
+ background-position-y: center, center, 0%;
+ animation: hue 0.5s linear infinite;
+}
+
+
+.style2 {
+
+ position: relative;
+ font-weight: 700 !important;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: border-box, border-box, text;
+ background-image: url(../../../), url(../../../), linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(73, 233, 255, 1) 35%, rgba(0, 228, 255, 1) 100%);
+ background-size: 99%, 10em, 25em;
+ animation: style2anim 1s linear infinite
+}
+
+@keyframes style2anim {
+ 0% {
+  background-position: 0%, 0%, 0 0;
+  text-shadow: 0 0 10px #00e4ff,
+   0 0 5px #00e4ff;
+ }
+
+ 50% {
+  text-shadow: 0 0 20px #00e4ff,
+   0 0 10px #00e4ff,
+   0 0 10px #00e4ff;
+ }
+
+ 100% {
+  background-position: 0%, 0%, 100em;
+  text-shadow: 0 0 10px #00e4ff,
+   0 0 5px #00e4ff;
+ }
+}
+
+.style3 {
+ position: relative;
+ font-weight: bold;
+ text-shadow: 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 7px #F00, 0 0 7px #F00, 0 0 8px #F00, 0 0 9px #F00, 0 0 10px #F00;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: border-box, border-box, text;
+ background-image: url(../../../), url(../../../), linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(110, 255, 73, 1) 35%, rgba(56, 255, 0, 1) 100%);
+ background-size: 6em, 4em, 25em;
+ animation: style3anim 3s linear infinite;
+}
+
+@keyframes style3anim {
+ 0% {
+  text-shadow: 0 1px 15px rgb(0 255 0);
+  background-position: 0%, 0%, -20em 0;
+ }
+
+ 50% {
+  text-shadow: 0 1px 15px rgb(0 255 0);
+ }
+
+ 100% {
+  text-shadow: 0 1px 15px rgb(0 255 0);
+  background-position: 0%, 0%, 20em 0;
+ }
+}
+
+
+.style4 {
+ background-image: url(https://i.imgur.com/UBtu8za.gif), url(https://i.imgur.com/UBtu8za.gif);
+ background-size: 10em, 2em, 5em;
+ position: relative;
+ animation: style4anim 4s ease infinite;
+}
+
+
+@keyframes style4anim {
+ 0% {
+  color: #ffe849;
+  text-shadow: 1 1 0px #ffe849;
+ }
+
+ 25% {
+  color: #ffe849;
+  text-shadow: 1 1 5px #ffe849;
+ }
+
+ 50% {
+  color: #ffe849;
+  text-shadow: 1 1 15px #ffe849;
+ }
+
+ 75% {
+  color: #ffe849;
+  text-shadow: 0 0 5px #ffe849;
+ }
+
+ 100% {
+  color: #ffe849;
+  text-shadow: 0 0 0px #ffe849;
+ }
+}
+
+.style5 {
+ font-weight: 800;
+ text-shadow: 0 0 15px rgb(83 219 180);
+ position: relative;
+ background-image: linear-gradient(123deg, #54dcb3 0%, white 20%, #54dcb3 30%, white 49%, #54dcb3 57%, white 68%, #54dcb3 83%, white 100%), url(https://i.imgur.com/DkqDqHl.gif);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ animation: style5anim 5.5s cubic-bezier(0.4, 0, 1, 1) 0s infinite running;
+ background-size: 100em, 19em 10em;
+}
+
+@keyframes style5anim {
+ 0% {
+  background-position: 0% 50%, 0%
+ }
+
+ 50% {
+  background-position: 100% 50%, 0%
+ }
+
+ 100% {
+  background-position: 0% 50%, 0%
+ }
+}
+
+
+.style6 {
+ position: relative;
+ font-weight: bold;
+ text-shadow: 0 0 6px #ffffff, 0 0 2px #ffffff, 0 0 7px #F00, 0 0 7px #F00, 0 0 8px #F00, 0 0 9px #F00, 0 0 10px #F00;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: border-box, border-box, text;
+ background-image: url(../../../), url(../../../), linear-gradient(-45deg, #fff 0%, #FF0000 15%, #FF8000 25%, #F7FF00 35%, #FF0000 45%, #55FF00 55%, #03FFFF 65%, #0022FF 75%, #A100FF 85%, #FF00E6 95%, #fff 100%);
+ background-size: 6em, 4em, 25em;
+ animation: style6anim 3s linear infinite;
+}
+
+@keyframes style6anim {
+ 0% {
+  text-shadow: 0px 0px 10px #FF2A00(255 42 0 / 70%);
+  background-position: 0%, 0%, -20em 0;
+ }
+
+ 50% {
+  text-shadow: 0 1px 25px rgb(255 0 0);
+ }
+
+ 100% {
+  text-shadow: 0px 0px 10px #FF2A00(255 42 0 / 70%);
+  background-position: 0%, 0%, 20em 0;
+ }
+}
+
+
+.style7 {
+ position: relative;
+ font-weight: 600;
+ text-shadow: 0 0 4px #4cc3ff82;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: border-box, border-box, text;
+ background-image: url(https://i.imgur.com/1vgidgC.gif), url(https://i.imgur.com/iMRH8VD.gif), linear-gradient(123deg, rgba(31, 204, 223) 0%, rgba(110, 123, 255, 1) 20%, rgb(47, 167, 255) 30%, rgb(40, 204, 255) 49%, rgba(74, 199, 255, 1) 57%, rgba(25, 210, 255) 68%, rgba(88, 100, 255, 1) 83%, rgb(31, 204, 223) 100%);
+ background-size: 10em, 3em, 10em;
+ animation: style7anim 3s linear infinite;
+
+ @keyframes style7anim {
+  0% {
+   background-position: 0 0, 0 0, -10em 0;
+  }
+
+  100% {
+   background-position: 0 0, 0 0, 10em 0;
+  }
+ }
+}
+
+.style8 {
+ text-shadow: 1px 1px 4px rgb(255 255 255 / 36%);
+ font-weight: bold;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ background-image: linear-gradient(-45deg, rgb(109, 2, 248) 0%, rgb(239, 3, 235) 10%, rgb(239, 3, 235) 20%, rgb(109, 2, 248) 30%, rgb(109, 2, 248) 40%, rgb(239, 3, 235) 50%, rgb(239, 3, 235) 60%, rgb(109, 2, 248) 70%, rgb(109, 2, 248) 80%, rgb(239, 3, 235) 90%, rgb(239, 3, 235) 100%), url(https://i.imgur.com/Ocwa4cC.gif);
+ background-size: 500% 500%, 8em;
+ animation: bg-moving 4s linear 0s infinite running;
+ transition: .3s;
+ animation: style8anim 3.5s cubic-bezier(0.4, 0, 1, 1) 0s infinite running;
+ transition: .3s;
+ position: relative;
+}
+
+@keyframes style8anim {
+ 0% {
+  background-position: 0% 50%, 0%
+ }
+
+ 50% {
+  background-position: 100% 50%, 0%
+ }
+
+ 100% {
+  background-position: 0% 50%, 0%
+ }
+}
+
+.style9 {
+ -webkit-animation: style9anim 5s linear infinite;
+ font-weight: bold;
+}
+
+@keyframes style9anim {
+ 0% {
+  color: red;
+  text-shadow: 0 0 5px red;
+ }
+
+ 25% {
+  color: #F5BB63;
+  text-shadow: 0 0 5px orange;
+ }
+
+ 50% {
+  color: #a77c3d;
+  text-shadow: 0 0 5px orange;
+ }
+
+ 75% {
+  color: #c76e1a;
+  text-shadow: 0 0 5px orange;
+ }
+
+ 100% {
+  color: red;
+  text-shadow: 0 0 5px red;
+ }
+}
+
+.style10 {
+ text-shadow: 1px 1px 3px rgb(255 255 255 / 38%);
+ font-weight: bold;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 255, 0, 1) 41%, rgba(0, 255, 95, 1) 100%);
+ background-size: 20% 1000%, 8em;
+ animation: style10anim 3.5s cubic-bezier(0.4, 0, 1, 1) 0s infinite running;
+ transition: .3s;
+ position: relative;
+}
+
+@keyframes style10anim {
+ 0% {
+  background-position: 0% 50%, 0%
+ }
+
+ 50% {
+  background-position: 100% 50%, 0%
+ }
+
+ 100% {
+  background-position: 0% 50%, 0%
+ }
+}
+
+.style11 {
+ font-weight: 800;
+ position: relative;
+ background-image: linear-gradient(123deg, red 0%, yellow 20%, red 30%, yellow 49%, red 57%, yellow 68%, red 83%, yellow 100%), url(https://i.imgur.com/fMqEN6G.gif);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ animation: style11anim 5s linear infinite;
+ background-size: 100em, 19em 10em;
+}
+
+@keyframes style11anim {
+ 0% {
+  color: red;
+  text-shadow: 0px 0px 10px red;
+  background-position: 0% 0%, 0%;
+ }
+
+ 50% {
+  color: orange;
+  text-shadow: 0px 0px 10px orange;
+ }
+
+ 100% {
+  color: red;
+  text-shadow: 0px 0px 10px red;
+  background-position: 200% 0%, 0%;
+ }
+}
+
+.style12 {
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(228, 15, 98, 1) 41%, rgba(241, 143, 181, 1) 100%), url(https://i.imgur.com/iDVWHPh.gif);
+ background-size: 100%, 20%;
+ position: relative;
+ animation: style12anim 10s linear infinite;
+}
+
+@keyframes style12anim {
+ 0% {
+  color: yellow;
+  text-shadow: 0px 0px 10px rgb(228, 15, 98);
+  background-position: 0% 0%, 0%;
+ }
+
+ 99% {
+  color: #660099;
+  text-shadow: 0px 0px 10px rgb(228, 15, 98);
+  background-position: 100% 0%, 50%;
+ }
+}
+
+.style13 {
+ font-weight: 500;
+ --bg-pos: .2em -.07em;
+ position: relative;
+
+ text-shadow: 0 0 .25em #ffffff72;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: border-box, text;
+ background-image: url(https://i.ibb.co/vL7hbFf/particles.webp), linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(22, 15, 228, 1) 41%, rgba(143, 145, 241, 1) 100%);
+ background-size: 3em, 10em;
+ animation: style13anim 3s linear infinite;
+}
+
+@keyframes style13anim {
+ 0% {
+  background-position: 0 0, -10em 0;
+ }
+
+ 100% {
+  background-position: 0 0, 10em 0;
+ }
+}
+
+.style14 {
+ background-image: url(https://i.imgur.com/USp1chA.jpg);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, text;
+ font-weight: bold;
+ animation: style14anim 4s linear infinite;
+}
+
+@keyframes style14anim {
+ 0% {
+  background-position: 0 0;
+
+  filter: hue-rotate(0deg);
+
+ }
+
+ 100% {
+  background-position: 100% 100%;
+
+  filter: hue-rotate(180deg);
+
+ }
+}
+
+.style15 {
+ text-shadow: 1px 1px 4px rgb(255 255 255 / 36%);
+ font-weight: bold;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ background-image: linear-gradient(-45deg, #0fdce4 0%, #fff 10%, #fff 20%, #0fdce4 30%, #0fdce4 40%, #fff 50%, #fff 60%, #0fdce4 70%, #0fdce4 80%, #fff 90%, #fff 100%), url(../../../);
+ background-size: 500% 500%, 8em;
+ animation: style15anim 4s linear 0s infinite running;
+ transition: .3s;
+}
+
+@keyframes style15anim {
+ 0% {
+  background-position: 0% 50%, 0%
+ }
+
+ 50% {
+  background-position: 100% 50%, 0%
+ }
+
+ 100% {
+  background-position: 0% 50%, 0%
+ }
+}
+
+.style16 {
+ text-shadow: 1px 1px 3px rgb(255 255 255 / 20%);
+ font-weight: bold;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ background-image: linear-gradient(200deg, #05D0FE 20%, rgba(110, 123, 251, 1) 30%, rgb(189 255 255)), url(../../../);
+ background-size: 20% 1000%, 8em;
+ animation: style16anim 4s linear 0s infinite running;
+ transition: 5s;
+}
+
+@keyframes style16anim {
+ 0% {
+  background-position: 0% 50%, 0%;
+ }
+
+ 50% {
+  background-position: 100% 50%, 0%;
+ }
+
+ 100% {
+  background-position: 0% 50%, 0%;
+ }
+}
+
+.style17 {
+ text-shadow: 1px 1px 3px rgb(255 255 255 / 20%);
+ font-weight: bold;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ background-image: linear-gradient(200deg, #ff0100 20%, rgba(255, 0, 0, 1) 50%, rgb(255 255 255)), url(../../../);
+ background-size: 20% 1000%, 8em;
+ animation: style16anim 4s linear 0s infinite running;
+ transition: 5s;
+}
+
+@keyframes style16anim {
+ 0% {
+  background-position: 0% 50%, 0%;
+ }
+
+ 50% {
+  background-position: 100% 50%, 0%;
+ }
+
+ 100% {
+  background-position: 0% 50%, 0%;
+ }
+}
+
+.style18 {
+ text-shadow: 1px 1px 3px rgb(255 255 255 / 38%);
+ font-weight: bold;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(227, 173, 225, 1) 41%, rgba(228, 15, 220, 1) 100%), url(https://i.ibb.co/xKC75z82/bg1.webp);
+ background-size: 20% 1000%, 8em;
+ animation: style18anim 3.5s cubic-bezier(0.4, 0, 1, 1) 0s infinite running;
+ transition: .3s;
+}
+
+@keyframes style18anim {
+ 0% {
+  background-position: 0% 50%, 0%
+ }
+
+ 50% {
+  background-position: 100% 50%, 0%
+ }
+
+ 100% {
+  background-position: 0% 50%, 0%
+ }
+}
+
+.style19{
+ text-shadow: 1px 1px 3px rgb(255 255 255 / 38%);
+ font-weight: bold;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 215, 24, 1) 41%, rgba(255, 255, 0, 1) 100%);
+ background-size: 20% 1000%, 8em;
+ animation: style10anim 3.5s cubic-bezier(0.4, 0, 1, 1) 0s infinite running;
+ transition: .3s;
+ position: relative;
+}
+
+@keyframes style10anim {
+ 0% {
+  background-position: 0% 50%, 0%
+ }
+
+ 50% {
+  background-position: 100% 50%, 0%
+ }
+
+ 100% {
+  background-position: 0% 50%, 0%
+ }
+}
+
+.style20 {
+ font-weight: 900;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text, border-box;
+ background-image: linear-gradient(15deg, rgb(243, 81, 22) 20%, rgb(225, 218, 19) 30%, rgb(40, 245, 13) 40%, rgb(22, 228, 255) 50%, rgb(202, 22, 238) 60%, rgb(229, 255, 0) 70%, rgb(248, 240, 5) 80%),
+  url(../../../);
+ background-size: 400% 400%, 10em;
+ animation: style20anim 3s linear 1s infinite running;
+}
+
+@keyframes style20anim {
+ 0% {
+  -webkit-filter: hue-rotate(100deg);
+  background-position: 0% 50%, 0%;
+ }
+
+ 50% {
+  background-position: 100% 50%, 0%;
+ }
+
+ 100% {
+  background-position: 0% 50%, 0%;
+  -webkit-filter: hue-rotate(0deg);
+ }
+}  
